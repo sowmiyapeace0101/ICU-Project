@@ -21,7 +21,7 @@ pipeline {
         script {
           sh "echo $USER"
           sh "docker login -u sowmiyaprincess -p Sowmiya@0101"
-          sh "docker push saidamo/cicd-poc-jenkins-ansible:$BUILD_NUMBER"
+          sh "docker push sowmiyaprincess/cicd-poc-jenkins-ansible:$BUILD_NUMBER"
           }
         }
       }
